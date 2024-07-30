@@ -1,0 +1,12 @@
+﻿  Hangman.cpp
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(48,19): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(50,47): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(52,15): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(53,3): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(53,19): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(56,10): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(58,20): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(60,36): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(65,23): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(67,16): error C2065: 'Guess': undeclared identifier
+C:\Users\letsg\Documents\GitHub\Hangman\Hangman\Hangman.cpp(73,29): error C2065: 'Guess': undeclared identifier
