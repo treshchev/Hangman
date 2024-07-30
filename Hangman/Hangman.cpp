@@ -57,8 +57,33 @@ int main()
 	
 	if (THE_WORD.find(Guess) != std::string::npos)
 	{
-		std::cout 
+		std::cout << "That's right! " << Guess << " is in the word.\n";
+		// Update variable soFar, include in it the new guessed letter
+
+		for (int i = 0; i < THE_WORD.length(); i++)
+		{
+			if (THE_WORD[i] == Guess)
+			{
+				soFar[i] = Guess;
+			}
+		}
 	}
+	else
+	{
+		std::cout << "Sorry, " << Guess << "isn't in the word.\n";
+			WrongTry++;
+	}
+	// Finish of the game
+	
+	if (WrongTry == MAX_WRONG)
+	{
+		std::cout << "\nYou've been hanged!";
+	}
+	else
+	{
+		std::cout << "You guessed it! " << THE_WORD << std::endl;
+	}
+	std::cout << "\nThe wprd was " << THE_WORD << std::endl;
 
-
+	return 0;
 }
