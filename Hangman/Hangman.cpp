@@ -43,7 +43,7 @@ int main()
 		Guess = toupper(Guess); // Convert to upper case
 
 		// Since the hidden word is written in uppercase
-	
+	}
 
 	while (Used.find(Guess) != std::string::npos)
 	{
@@ -73,7 +73,7 @@ int main()
 		std::cout << "Sorry, " << Guess << "isn't in the word.\n";
 		WrongTry++;
 	}
-}
+
 	// Finish of the game
 	
 	if (WrongTry == MAX_WRONG)
