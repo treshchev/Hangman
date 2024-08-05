@@ -30,7 +30,7 @@ int main()
 	std::cout << "Welcome to Hangman. Good luck!\n";
 
 	//The main cycle
-	while ((WrongTry == MAX_WRONG) && (soFar != THE_WORD))
+	while ((WrongTry < MAX_WRONG) && (soFar != THE_WORD))
 	{
 		std::cout << "\n\nYou have " << (MAX_WRONG - WrongTry);
 		std::cout << " incorrect guesses left.\n";
@@ -43,7 +43,7 @@ int main()
 		Guess = toupper(Guess); // Convert to upper case
 
 		// Since the hidden word is written in uppercase
-	}
+	
 
 	while (Used.find(Guess) != std::string::npos)
 	{
@@ -73,7 +73,7 @@ int main()
 		std::cout << "Sorry, " << Guess << "isn't in the word.\n";
 		WrongTry++;
 	}
-
+}
 	// Finish of the game
 	
 	if (WrongTry == MAX_WRONG)
@@ -84,7 +84,7 @@ int main()
 	{
 		std::cout << "You guessed it! " << THE_WORD << std::endl;
 	}
-	std::cout << "\nThe wprd was " << THE_WORD << std::endl;
+	std::cout << "\nThe word was " << THE_WORD << std::endl;
 
 	return 0;
 }
