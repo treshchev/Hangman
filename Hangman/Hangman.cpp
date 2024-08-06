@@ -17,6 +17,7 @@ int main()
 	Words.push_back("GUESS");
 	Words.push_back("HANGMAN");
 	Words.push_back("DIFFICULT");
+	Words.push_back("VLADISLAV");
 
 	srand(static_cast<unsigned int>(time(0)));
 	random_shuffle(Words.begin(), Words.end());
